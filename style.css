@@ -1,0 +1,18 @@
+body {
+    background-color: darkred;
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+}
+
+p {
+    font-size: large;
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+}
