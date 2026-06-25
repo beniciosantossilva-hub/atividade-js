@@ -8,8 +8,21 @@
 </head>
 <body>
     <h1>Testando JS</h1>
-    <p id="mensagem">Clique para revelar a Mensagem</p>
-    <button onclick="revelarMensagem()">Revelar Mensagem</button>
+        <div class="bloco">
+            <h2>Realizando a Alteração no HTML com JS</h2>
+            <p id="mensagem">Clique para revelar a Mensagem</p>
+            <button onclick="revelarMensagem()">Revelar Mensagem</button>
+        </div>
+        <div class="bloco">
+            <h2>Testando Alterações usando Variáveis</h2>
+            <label for="nomeUsuario"> Digite seu Nome</label>
+            <input type="text" id="nomeUsuario">
+            <br><br>
+            <button onclick="mostrarNome()">Atualizar Nome</button>
+            <br><br>
+            <p id="resultadonome">Seu Nome aparecerá aqui</p>
+        </div>
     <script src="script.js"></script>
+
 </body>
 </html>
